@@ -1,10 +1,10 @@
 {
-  "name": "react-routerm",
+  "name": "exchange-front",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "saigowthamr",
-    "email": "saigowthamr@gmail.com"
+    "name": "alozano",
+    "email": "alexander.lozanof@gmail.com"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
