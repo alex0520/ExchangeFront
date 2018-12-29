@@ -65,13 +65,13 @@ class App extends Component {
                 <Input type="text" name="value" id="value" placeholder="USD" bsSize="lg" onChange={this.handleChange('value')} value={this.state.value} />
               </div>
               <div className="col-6">
-                <Input type="text" disabled name="value" id="value" placeholder="EUR" bsSize="lg" value={this.state.exchangedValue} />
+                <Input type="text" disabled name="result" id="result" placeholder="EUR" bsSize="lg" value={this.state.exchangedValue} />
               </div>
             </div>
             <div className="row">
 
               <div className="col-4 offset-4 text-center">
-                <Button color="gray" size="lg" block onClick={this.handleCalculate}>CALCULATE</Button>
+                <Button color="gray" name="calculate" id="calculate" size="lg" block onClick={this.handleCalculate}>CALCULATE</Button>
               </div>
             </div>
           </div>
